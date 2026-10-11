@@ -238,8 +238,8 @@ export default function ServicesPage() {
             <Field label="Tên (KO)" value={form.nameKo} onChange={(v) => field('nameKo', v)} />
           </div>
           <div className="grid grid-cols-2 gap-3">
-            <Field label="Mô tả (VI)" value={form.descVi} onChange={(v) => field('descVi', v)} multiline />
-            <Field label="Mô tả (KO)" value={form.descKo} onChange={(v) => field('descKo', v)} multiline />
+            <Field label="Mô tả ngắn (VI)" value={form.descVi} onChange={(v) => field('descVi', v)} multiline />
+            <Field label="Mô tả ngắn (KO)" value={form.descKo} onChange={(v) => field('descKo', v)} multiline />
           </div>
           <div className="grid grid-cols-2 gap-3">
             <Field label="Giá (VND)" value={form.priceVnd} onChange={(v) => field('priceVnd', v)} type="number" required />
